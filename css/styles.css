@@ -234,7 +234,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 70%;
 }
 
 .service-bubble {
@@ -379,4 +379,182 @@
 .owner-right img {
   margin-left: var(--size-100);
   box-shadow: -10px 10px 20px rgba(2, 2, 2);
+}
+
+/* Why choose us section */
+
+.above-us-hr {
+  margin: auto;
+  margin-top: var(--size-200);
+  width: 60%;
+  background-color: var(--main-blue);
+  height: 1px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+
+.above-why-us-h2 {
+  text-align: center;
+  margin-top: var(--size-100);
+  color: var(--main-blue);
+}
+
+.why-choose-us {
+  margin-top: var(--size-50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: var(--size-20);
+  font-size: var(--size-15);
+}
+
+.why-choose-us h2 {
+  margin-bottom: var(--size-30);
+}
+
+.row-one,
+.row-two,
+.row-three,
+.row-four {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-column,
+.right-column {
+  width: 30%;
+}
+
+.why-us-info-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--size-40);
+  width: 80%;
+}
+
+.why-us-info-wrapper span {
+  margin-right: var(--size-20);
+  margin-right: var(--size-20);
+  font-size: var(--size-30);
+}
+
+.why-us-info-wrapper p {
+  width: 80%;
+}
+
+/* How much does it cost section */
+
+.default-hr {
+  margin: auto;
+  margin-top: var(--size-100);
+  margin-bottom: var(--size-100);
+  width: 60%;
+  background-color: var(--main-blue);
+  height: 1px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+
+.whats-the-cost {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whats-the-cost h2:nth-child(1) {
+  color: var(--main-blue);
+}
+
+.factors-wrapper {
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+  display: flex;
+}
+
+.factors-wrapper h2,
+.cost-final-info-wrapper h2 {
+  font-size: var(--size-30);
+  margin-bottom: var(--size-30);
+}
+
+.factors-wrapper p {
+  width: 90%;
+  line-height: 25px;
+}
+
+.factors-wrapper img {
+  width: 45%;
+  border-radius: var(--size-5);
+  box-shadow: var(--standard-shadow);
+}
+
+.factors-wrapper-words {
+  width: 100%;
+}
+
+.cost-final-info-wrapper p {
+  line-height: 25px;
+}
+
+/* Footer */
+
+.our-service-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-blue);
+  color: var(--white);
+  margin-bottom: var(--size-30);
+}
+
+.service-area-info {
+  width: 60%;
+  text-align: center;
+  margin-top: var(--size-30);
+  margin-bottom: var(--size-30);
+}
+
+.service-area-info h2 {
+  font-size: var(--size-30);
+  margin-bottom: var(--size-20);
+}
+
+.our-service-area img {
+  width: var(--size-20);
+  height: var(--size-20);
+  margin-right: var(--size-5);
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+}
+
+.area-row-one,
+.area-row-two,
+.area-row-three,
+.area-row-four,
+.area-row-five {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.area-row-five {
+  margin-bottom: var(--size-30);
+}
+
+.area-wrapper {
+  display: flex;
+  margin: var(--size-10);
+  width: var(--size-200);
+  font-size: var(--size-15);
+}
+
+.alpine,
+.AF,
+.bluffdale {
+  margin-right: var(--size-100);
 }
