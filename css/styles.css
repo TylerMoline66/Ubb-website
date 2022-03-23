@@ -143,6 +143,10 @@
 }
 
 .sub-menu-hovered {
+  position: absolute;
+  padding: 1rem;
+  border: 1px solid black;
+  background: white;
   display: flex;
   flex-direction: column;
   float: left;
