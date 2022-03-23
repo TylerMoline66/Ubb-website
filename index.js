@@ -1,20 +1,11 @@
-// const subMenu = document.getElementById('subMenu')
+(() => {
+  const navMenu = document.getElementById("navMenu");
 
-// subMenu.addEventListener('mouseover', function (event){
-// subMenu.classList.add(".sub-menu-hovered");})
+  function toggleMenu() {
+    const subMenu = document.getElementById("subMenu");
+    subMenu.classList.toggle("sub-menu-hovered");
+  }
 
-
-
-
-const downMenu = document.getElementById('subMenu')
-const menuI = document.getElementById('menuIcon')
-
-menuI.onmouseover = function () {
-if (menuI.mouseover == true) {
-downMenu.classList.add("sub-menu-hovered");
-}  else {
-downMenu.classList.remove("sub-menu-hovered");
-}
-}
-
-
+  navMenu.addEventListener("mouseenter", toggleMenu);
+  navMenu.addEventListener("mouseleave", toggleMenu);
+})();
