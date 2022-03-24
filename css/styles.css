@@ -94,6 +94,7 @@
   background-color: var(--white);
   border: 1px solid var(--main-blue);
   color: var(--black);
+  cursor: pointer;
 }
 
 .navbar .container {
@@ -128,7 +129,6 @@
   font-size: 0.8125rem;
   font-weight: 600;
   text-transform: uppercase;
-  /* margin-right: var(--size-40); */
   line-height: var(--size-20);
   transition: ease-in-out 1s;
 }
@@ -142,10 +142,27 @@
   display: none;
 }
 
+.sub-menu a {
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -o-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  margin-bottom: var(--size-10);
+  font-size: 11px;
+}
+
+.sub-menu a:hover {
+  transform: scale(1.05);
+  color: var(--main-blue);
+  text-decoration: underline;
+}
+
 .sub-menu-hovered {
   position: absolute;
+  width: var(--size-200);
   padding: 1rem;
-  border: 1px solid black;
+  border: 2px solid var(--main-blue);
+  border-radius: var(--size-5);
   background: white;
   display: flex;
   flex-direction: column;
@@ -554,7 +571,8 @@
 
 .area-wrapper {
   display: flex;
-  margin: var(--size-10);
+  align-items: center;
+  /* margin: var(--size-10); */
   width: var(--size-200);
   font-size: var(--size-15);
 }
@@ -644,7 +662,7 @@
 }
 
 .footer-bottom img {
-  width: var(--size-100);
+  width: 140px;
 }
 
 .footer-services,
@@ -671,4 +689,49 @@
   text-align: center;
   margin-bottom: var(--size-40);
   font-size: var(--size-14);
+}
+
+/* SERVICES PAGE */
+/* SERVICES PAGE */
+/* SERVICES PAGE */
+/* Request Quote */
+
+.quote-request {
+  margin-top: var(--size-100);
+}
+
+.request-btn {
+  margin: auto;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.services-page-main {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-40);
+}
+
+.services-page-main h1 {
+  font-size: var(--size-40);
+  color: var(--main-blue);
+  text-shadow: 2px 2px 2px rgb(38 38 38);
+}
+
+.service-hr {
+  width: 10%;
+  float: left;
+  background-color: var(--main-blue);
+  height: 2px;
+  border: 1px solid transparent;
+}
+
+.services-page-main div {
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.services-page-main div p {
+  font-size: var(--size-16);
+  line-height: var(--size-20);
 }
