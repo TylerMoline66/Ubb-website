@@ -710,6 +710,7 @@
   width: 60%;
   margin: auto;
   margin-top: var(--size-40);
+  /* text-align: center; */
 }
 
 .services-page-main h1 {
@@ -721,6 +722,7 @@
 .service-hr {
   width: 10%;
   float: left;
+  margin: auto;
   background-color: var(--main-blue);
   height: 2px;
   border: 1px solid transparent;
@@ -734,4 +736,101 @@
 .services-page-main div p {
   font-size: var(--size-16);
   line-height: var(--size-20);
+}
+
+.basement-options-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.basement-options-section div {
+  margin: var(--size-20);
+}
+
+.basement-options-section h2 {
+  font-size: var(--size-20);
+}
+
+.row-one-basement-ideas,
+.basement-option-row-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.service-final-hr {
+  width: 100%;
+}
+
+.service-page-info-final {
+  text-align: center;
+}
+
+.service-page-info-final ul {
+  margin-left: var(--size-20);
+  text-decoration: underline;
+}
+
+/* About Us Page */
+/* About Us Page */
+/* About Us Page */
+/* About-us-main */
+
+.about-us-page-main {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-40);
+}
+
+.about-us-page-main img {
+  width: 100%;
+  height: 80%;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+  border-radius: var(--size-5);
+  box-shadow: var(--standard-shadow);
+}
+
+.about-us-page-main h1 {
+  font-size: var(--size-40);
+  color: var(--main-blue);
+  text-shadow: 2px 2px 2px rgb(38 38 38);
+}
+
+/* CONTACT US PAGE */
+/* CONTACT US PAGE */
+/* CONTACT US PAGE */
+/* Contact us page main */
+
+.contact-us-page-main {
+  margin: auto;
+  margin-top: var(--size-200);
+  margin-bottom: var(--size-100);
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us-page-main a {
+  color: var(--black);
+  font-size: var(--size-20);
+}
+
+.contact-us-page-main h1 {
+  font-size: var(--size-40);
+  color: var(--main-blue);
+  text-shadow: 2px 2px 2px rgb(38 38 38);
+}
+
+.contact-us-page-main span {
+  font-size: var(--size-20);
+}
+
+.contact-us-page-main iframe {
+  width: var(--size-500);
+  height: var(--size-400);
+}
+
+.contact-page-schedule {
+  height: 50rem;
+  margin-bottom: var(--size-100);
 }
