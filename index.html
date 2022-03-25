@@ -479,7 +479,12 @@
         <img src="./Assets/service-map.png" alt="" />
       </div>
       <section class="free-quote-footer">
-        <form class="free-quote-info">
+        <form
+          class="free-quote-info"
+          name="contact"
+          data-netlify="true"
+          id="footerForm"
+        >
           <h2>Schedule a free quote</h2>
           <input id="footerName" type="text" placeholder="Full Name" />
           <input id="footerEmail" type="email" placeholder="Email" />
@@ -487,7 +492,7 @@
           <br />
           <br />
           <textarea
-            id="tbd"
+            id="footerMessage"
             name="footerMessage"
             placeholder="Message"
             rows="4"
@@ -496,7 +501,7 @@
           </textarea>
           <br />
           <br />
-          <input id="footerSubmit" type="submit" value="Submit" />
+          <button id="footerSubmit" type="submit">Submit</button>
         </form>
       </section>
       <section class="footer-bottom">
@@ -520,6 +525,6 @@
       <h2 class="final-h2">Utah Basement Builders 2022</h2>
     </footer>
 
-    <script src="./index.js" async defer></script>
+    <script src="./js/index.js" async defer></script>
   </body>
 </html>
