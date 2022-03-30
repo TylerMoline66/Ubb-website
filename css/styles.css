@@ -124,6 +124,10 @@
   margin-right: var(--size-30);
 }
 
+.navbar-brand img:hover {
+  transform: scale(1.1);
+}
+
 .nav-link a {
   color: var(--black);
   font-size: 0.8125rem;
@@ -167,6 +171,11 @@
   display: flex;
   flex-direction: column;
   float: left;
+  background-color: var(--light-background);
+}
+
+ul li .final-sub-menu-item {
+  margin-bottom: 0px;
 }
 
 /* Main intro Section */
@@ -388,8 +397,9 @@
 .owner-left img,
 .owner-right img {
   width: var(--size-300);
-  /* height: var(--size-300); */
+  height: 100%;
   border-radius: var(--size-10);
+  z-index: 10;
 }
 
 .owner-left img {
@@ -611,7 +621,8 @@
   text-shadow: 3px 5px 2px rgb(38 38 38);
 }
 
-.free-quote-info input {
+.free-quote-info input,
+#footerSubmit {
   width: var(--size-300);
   height: var(--size-50);
   border: 1px solid transparent;
@@ -833,4 +844,170 @@
 .contact-page-schedule {
   height: 50rem;
   margin-bottom: var(--size-100);
+}
+
+/* Remodeling Services page */
+/* Remodeling Services page */
+/* Remodeling Services page */
+/* BAsement remodling section */
+
+.basement-remodel {
+  margin: auto;
+  margin-top: 9.375rem;
+  margin-bottom: var(--size-100);
+  width: 99%;
+}
+
+.basement-remodel h1 {
+  text-align: center;
+  font-size: var(--size-40);
+  margin-bottom: var(--size-50);
+}
+
+.remodeling-services-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.remodeling-row-one,
+.remodeling-row-two,
+.remodeling-row-three,
+.remodeling-row-four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remodel-service img {
+  width: 28.125rem;
+  height: var(--size-300);
+  margin-left: var(--size-50);
+  margin-right: var(--size-50);
+  margin-bottom: var(--size-20);
+  margin-top: var(--size-20);
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.remodel-service h2 {
+  margin-top: 4.6875rem;
+  text-decoration: underline;
+}
+
+.remodel-service img:hover {
+  transform: scale(1.05);
+}
+
+.remodel-service-h2 {
+  margin-top: var(--size-50);
+}
+
+.remodeling-info {
+  width: 60%;
+  margin: auto;
+}
+
+.request-quote-sticky {
+  margin: 0;
+  position: sticky;
+  left: 0;
+  bottom: var(--size-15);
+}
+
+.see-gallery-btn {
+  margin-top: var(--size-10);
+}
+
+/* Basement finishing page */
+/* Basement finishing page */
+/* Basement finishing page */
+/* Basement finishing info */
+
+.basement-finishing-info,
+.theater-service-info {
+  margin: auto;
+  margin-top: var(--size-150);
+  width: 60%;
+  line-height: var(--size-20);
+  margin-bottom: var(--size-100);
+}
+
+.basement-finishing-info p,
+.theater-service-info p {
+  font-size: var(--size-15);
+}
+
+.basement-finishing-info img,
+.theater-service-info img {
+  width: 70%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.finishing-info-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--size-100);
+  margin-bottom: var(--size-100);
+}
+
+.basement-finishing-info h3,
+.theater-service-info h3 {
+  text-decoration: underline;
+}
+
+/* Theater room service */
+/* Theater room service */
+/* Theater room service */
+/* Theater service info */
+
+.theater-info-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--size-100);
+  margin-bottom: var(--size-100);
+}
+
+/* Our team */
+/* Our team */
+/* Our team */
+/* Owner Section */
+.our-team-main {
+  margin-bottom: var(--size-100);
+}
+
+.our-team-btn {
+  margin-top: var(--size-15);
+  float: left;
+}
+
+.our-team-btn:hover {
+  background-color: var(--white);
+  border: 1px solid var(--main-blue);
+  color: var(--main-blue);
+}
+
+.behind-owner-color {
+  position: relative;
+  right: 35%;
+  top: 225px;
+}
+
+.behind-owner-color img {
+  width: var(--size-500);
+  height: var(--size-500);
+  box-shadow: none;
+  z-index: 5;
 }

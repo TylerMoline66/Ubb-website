@@ -72,7 +72,7 @@ body {
   margin: auto;
   width: var(--size-300);
   height: var(--size-50);
-  background-color: var(--tsqd-blue);
+  background-color: var(--main-blue);
   border-radius: var(--size-40);
   color: white;
   margin-top: var(--size-100);
