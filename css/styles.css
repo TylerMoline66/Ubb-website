@@ -118,7 +118,7 @@
   align-items: center;
 }
 .navbar-brand img {
-  width: 4.375rem;
+  width: 10.375rem;
   height: 4.375rem;
   transition: ease-in-out 0.5s;
   margin-right: var(--size-30);
@@ -271,8 +271,6 @@ ul li .final-sub-menu-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-right: var(--size-50);
-  margin-left: var(--size-50); */
   text-align: center;
   width: 340px;
 }
@@ -286,8 +284,8 @@ ul li .final-sub-menu-item {
 }
 
 .bubble-img {
-  width: var(--size-200);
-  height: var(--size-200);
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: var(--size-10) solid #ececec;
   margin-bottom: var(--size-15);
@@ -367,6 +365,7 @@ ul li .final-sub-menu-item {
 
 .owner-right {
   display: flex;
+  align-items: end;
   flex-direction: row-reverse;
   margin-top: var(--size-50);
 }
@@ -376,6 +375,7 @@ ul li .final-sub-menu-item {
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
+  z-index: 10;
 }
 
 .owner-name {
@@ -659,7 +659,7 @@ ul li .final-sub-menu-item {
 }
 
 .footer-bottom {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: top;
@@ -672,8 +672,12 @@ ul li .final-sub-menu-item {
   margin-bottom: var(--size-20);
 }
 
+.bottom-footer-logo {
+  margin-top: 4%;
+}
+
 .footer-bottom img {
-  width: 140px;
+  width: var(--size-300);
 }
 
 .footer-services,
@@ -721,7 +725,6 @@ ul li .final-sub-menu-item {
   width: 60%;
   margin: auto;
   margin-top: var(--size-40);
-  /* text-align: center; */
 }
 
 .services-page-main h1 {
@@ -884,7 +887,7 @@ ul li .final-sub-menu-item {
 }
 
 .remodel-service img {
-  width: 28.125rem;
+  width: 25rem;
   height: var(--size-300);
   margin-left: var(--size-50);
   margin-right: var(--size-50);
@@ -939,6 +942,7 @@ ul li .final-sub-menu-item {
   width: 60%;
   line-height: var(--size-20);
   margin-bottom: var(--size-100);
+  line-height: 25px;
 }
 
 .basement-finishing-info p,
@@ -980,12 +984,180 @@ ul li .final-sub-menu-item {
   margin-bottom: var(--size-100);
 }
 
+/* Game Room Page */
+/* Game Room Page */
+/* Game Room Page */
+/* Game Room Section */
+.game-service-info h2 {
+  margin-top: var(--size-100);
+}
+
+/* kitchen service page */
+/* kitchen service page */
+/* kitchen service page */
+.kitchen-bar-service {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-150);
+  margin-bottom: var(--size-100);
+  line-height: 25px;
+}
+
+.img-rows-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--size-100);
+  margin-bottom: var(--size-100);
+}
+
+.kitchens-row-one,
+.kitchens-row-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.kitchen-row-one-info,
+.kitchen-row-two-info {
+  width: 50%;
+}
+
+.kitchens-row-one img,
+.kitchens-row-two img {
+  width: 44%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.kitchens-row-one img {
+  margin-left: var(--size-40);
+}
+
+/* Bedroom service page */
+/* Bedroom service page */
+/* Bedroom service page */
+/* Bedroom service */
+.bedroom-service {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-150);
+  margin-bottom: var(--size-100);
+  line-height: var(--size-30);
+}
+
+.bedroom-service img {
+  width: 40%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.beside-img-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--size-40);
+  margin-top: var(--size-40);
+}
+
+.beside-img-info {
+  width: 50%;
+}
+
+/* Living room page */
+/* Living room page */
+/* Living room page */
+/* Living room service section */
+.living-room-service {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-150);
+  margin-bottom: var(--size-100);
+  line-height: 25px;
+}
+
+.living-room-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.living-room-service img {
+  width: 60%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+/* man cave page */
+/* man cave page */
+/* man cave page *
+/* Man cave section */
+.man-cave-service {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-150);
+  margin-bottom: var(--size-100);
+  line-height: 25px;
+}
+
+.cave-side-img-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.cave-side-img-wrapper img {
+  width: 50%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.cave-side-info {
+  width: 40%;
+}
+
+/* Stairs Service main */
+/* Stairs Service main */
+/* Stairs Service main */
+/* Stairs service */
+.stairs-service {
+  width: 60%;
+  margin: auto;
+  margin-bottom: var(--size-100);
+  margin-top: var(--size-150);
+  line-height: 25px;
+}
+
+.stairs-beside-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.stairs-beside-wrapper img {
+  width: 50%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.stairs-info-wrapper {
+  width: 40%;
+}
 /* Our team */
 /* Our team */
 /* Our team */
 /* Owner Section */
 .our-team-main {
-  margin-bottom: var(--size-100);
+  margin-bottom: -450px;
+  overflow: hidden;
 }
 
 .our-team-btn {
@@ -1001,13 +1173,24 @@ ul li .final-sub-menu-item {
 
 .behind-owner-color {
   position: relative;
-  right: 35%;
-  top: 225px;
+  right: -3%;
+  top: -1014px;
+  width: var(--size-300);
+  height: var(--size-300);
+  background-color: var(--main-blue);
+  opacity: 50%;
+  border-radius: var(--size-5);
+  margin-bottom: 0;
 }
 
-.behind-owner-color img {
-  width: var(--size-500);
-  height: var(--size-500);
-  box-shadow: none;
-  z-index: 5;
+.behind-owner-color-1 {
+  position: relative;
+  left: 75%;
+  top: -820px;
+  width: var(--size-300);
+  height: var(--size-300);
+  background-color: var(--main-blue);
+  opacity: 50%;
+  border-radius: var(--size-5);
+  margin-bottom: 0;
 }
