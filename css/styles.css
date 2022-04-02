@@ -849,122 +849,470 @@ ul li .final-sub-menu-item {
   margin-bottom: var(--size-100);
 }
 
-/* Calculator Page */
+/* Remodeling Services page */
+/* Remodeling Services page */
+/* Remodeling Services page */
+/* BAsement remodling section */
 
-.spacer {
-  height: 20rem;
+.basement-remodel {
+  margin: auto;
+  margin-top: 9.375rem;
+  margin-bottom: var(--size-100);
+  width: 99%;
 }
 
-.calculator {
+.basement-remodel h1 {
+  text-align: center;
+  font-size: var(--size-40);
+  margin-bottom: var(--size-50);
+}
+
+.remodeling-services-rows {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
   width: 100%;
-  padding: var(--size-40) var(--size-40);
-  gap: var(--size-40);
+  height: 100%;
+  text-align: center;
 }
 
-.dropdown-container {
-  width: 100%;
-  max-width: 1000px;
-}
-
-.dropdown-bar {
+.remodeling-row-one,
+.remodeling-row-two,
+.remodeling-row-three,
+.remodeling-row-four {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  height: var(--size-50);
-  background: var(--main-blue);
-  color: var(--white);
-  border-radius: 0.5rem;
-  padding: 2.5rem;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-.dropdown-bar:hover {
-  opacity: 0.8;
-}
-.dropdown-bar--focused {
-  border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.dropdown-content {
-  height: 0;
+.remodel-service img {
+  width: 25rem;
+  height: var(--size-300);
+  margin-left: var(--size-50);
+  margin-right: var(--size-50);
+  margin-bottom: var(--size-20);
+  margin-top: var(--size-20);
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.remodel-service h2 {
+  margin-top: 4.6875rem;
+  text-decoration: underline;
+}
+
+.remodel-service img:hover {
+  transform: scale(1.05);
+}
+
+.remodel-service-h2 {
+  margin-top: var(--size-50);
+}
+
+.remodeling-info {
+  width: 60%;
+  margin: auto;
+}
+
+.request-quote-sticky {
+  margin: 0;
+  position: sticky;
+  left: 0;
+  bottom: var(--size-15);
+}
+
+.see-gallery-btn {
+  margin-top: var(--size-10);
+}
+
+/* Basement finishing page */
+/* Basement finishing page */
+/* Basement finishing page */
+/* Basement finishing info */
+
+.basement-finishing-info,
+.theater-service-info {
+  margin: auto;
+  margin-top: var(--size-150);
+  width: 60%;
+  line-height: var(--size-20);
+  margin-bottom: var(--size-100);
+  line-height: 25px;
+}
+
+.basement-finishing-info p,
+.theater-service-info p {
+  font-size: var(--size-15);
+}
+
+.basement-finishing-info img,
+.theater-service-info img {
+  width: 70%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.finishing-info-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--size-100);
+  margin-bottom: var(--size-100);
+}
+
+.basement-finishing-info h3,
+.theater-service-info h3 {
+  text-decoration: underline;
+}
+
+/* Theater room service */
+/* Theater room service */
+/* Theater room service */
+/* Theater service info */
+
+.theater-info-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--size-100);
+  margin-bottom: var(--size-100);
+}
+
+/* Game Room Page */
+/* Game Room Page */
+/* Game Room Page */
+/* Game Room Section */
+.game-service-info h2 {
+  margin-top: var(--size-100);
+}
+
+/* kitchen service page */
+/* kitchen service page */
+/* kitchen service page */
+.kitchen-bar-service {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-150);
+  margin-bottom: var(--size-100);
+  line-height: 25px;
+}
+
+.img-rows-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--size-100);
+  margin-bottom: var(--size-100);
+}
+
+.kitchens-row-one,
+.kitchens-row-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.kitchen-row-one-info,
+.kitchen-row-two-info {
+  width: 50%;
+}
+
+.kitchens-row-one img,
+.kitchens-row-two img {
+  width: 44%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.kitchens-row-one img {
+  margin-left: var(--size-40);
+}
+
+/* Bedroom service page */
+/* Bedroom service page */
+/* Bedroom service page */
+/* Bedroom service */
+.bedroom-service {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-150);
+  margin-bottom: var(--size-100);
+  line-height: var(--size-30);
+}
+
+.bedroom-service img {
+  width: 40%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.beside-img-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--size-40);
+  margin-top: var(--size-40);
+}
+
+.beside-img-info {
+  width: 50%;
+}
+
+/* Living room page */
+/* Living room page */
+/* Living room page */
+/* Living room service section */
+.living-room-service {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-150);
+  margin-bottom: var(--size-100);
+  line-height: 25px;
+}
+
+.living-room-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.living-room-service img {
+  width: 60%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+/* man cave page */
+/* man cave page */
+/* man cave page *
+/* Man cave section */
+.man-cave-service {
+  width: 60%;
+  margin: auto;
+  margin-top: var(--size-150);
+  margin-bottom: var(--size-100);
+  line-height: 25px;
+}
+
+.cave-side-img-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.cave-side-img-wrapper img {
+  width: 50%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.cave-side-info {
+  width: 40%;
+}
+
+/* Stairs Service main */
+/* Stairs Service main */
+/* Stairs Service main */
+/* Stairs service */
+.stairs-service {
+  width: 60%;
+  margin: auto;
+  margin-bottom: var(--size-100);
+  margin-top: var(--size-150);
+  line-height: 25px;
+}
+
+.stairs-beside-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-50);
+}
+
+.stairs-beside-wrapper img {
+  width: 50%;
+  border-radius: var(--size-5);
+  box-shadow: 0px 11px 20px rgb(149 146 146);
+}
+
+.stairs-info-wrapper {
+  width: 40%;
+}
+/* Our team */
+/* Our team */
+/* Our team */
+/* Owner Section */
+.our-team-main {
+  margin-bottom: -450px;
   overflow: hidden;
-  display: flex;
-
-  transition: all 0.3s ease;
-  background: rgb(207, 207, 207);
-  border-radius: 0 0 0.5rem 0.5rem;
-}
-.dropdown-content form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
-  width: 100%;
-  height: 20rem;
-  padding: var(--size-40);
-}
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  height: 20rem;
-}
-.contact-form span {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.contact-form input {
-  width: 100%;
-  height: 2rem;
-  margin: 0 1rem;
-}
-.contact-form textarea {
-  margin: 3rem 1rem;
 }
 
-.dropdown-content--hidden {
-  height: 20rem;
+.our-team-btn {
+  margin-top: var(--size-15);
+  float: left;
 }
-.dropdown-header {
+
+.our-team-btn:hover {
+  background-color: var(--white);
+  border: 1px solid var(--main-blue);
+  color: var(--main-blue);
+}
+
+.behind-owner-color {
+  position: relative;
+  right: -3%;
+  top: -1014px;
+  width: var(--size-300);
+  height: var(--size-300);
+  background-color: var(--main-blue);
+  opacity: 50%;
+  border-radius: var(--size-5);
+  margin-bottom: 0;
+}
+
+.behind-owner-color-1 {
+  position: relative;
+  left: 67%;
+  top: -737px;
+  width: var(--size-300);
+  height: var(--size-300);
+  background-color: var(--main-blue);
+  opacity: 50%;
+  border-radius: var(--size-5);
+  margin-bottom: 0;
+}
+
+/* Gallery main page */
+/* Gallery main page */
+/* Gallery main page */
+/* Gallery top info */
+
+.main-gallery-intro {
+  margin: auto;
+  margin-top: var(--size-150);
+  margin-bottom: var(--size-150);
+}
+
+.main-gallery-intro h1 {
+  text-align: center;
+}
+
+.gallery-page-buttons {
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  height: var(--size-50);
-  background: var(--main-blue);
-  color: var(--white);
-  border-radius: 0.5rem;
-  padding: 2.5rem;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  font-weight: 500;
-  font-size: var(--size-20);
-}
-.dropdown-header:hover {
-  opacity: 0.8;
-}
-.dropdown-header--focused {
-  border-radius: 0.5rem 0.5rem 0 0;
-}
-.pricing-row {
-  width: 100%;
-  height: 4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: white;
-  padding: 0 2.5rem;
+  width: 80%;
+  margin-top: -50px;
 }
 
-.estimate-total {
-  font-weight: 500;
-  font-size: var(--size-20);
+.gallery-btn,
+.gallery-btn-1,
+.gallery-btn-2,
+.gallery-btn-3 {
+  font-size: var(--size-14);
+  width: var(--size-300);
+  height: var(--size-100);
+  border-radius: var(--size-10);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  opacity: 70%;
+  -webkit-transition: ease-in-out 0.7s;
+  -moz-transition: ease-in-out 0.7s;
+  -o-transition: ease-in-out 0.7s;
+  transition: ease-in-out 0.7s;
+}
+
+.gallery-btn:hover,
+.gallery-btn-1:hover,
+.gallery-btn-2:hover,
+.gallery-btn-3:hover {
+  transform: scale(1.4);
+  border-radius: var(--size-20);
+  opacity: 100%;
+  color: white;
+}
+
+.gallery-btn img,
+.gallery-btn-1 img,
+.gallery-btn-2 img,
+.gallery-btn-3 img {
+  width: 10%;
+  margin-right: var(--size-20);
+}
+
+.gallery-btn {
+  background-image: url("../Assets/kitchen-2.JPG");
+}
+
+.gallery-btn-1 {
+  background-image: url("../Assets/finishing-img.JPG");
+}
+
+.gallery-btn-2 {
+  background-image: url("../Assets/theater-3.JPG");
+}
+
+.gallery-btn-3 {
+  background-image: url("../Assets/bathroom-2.JPG");
+}
+
+.gallery-page-buttons .gallery-btn h2 {
+  opacity: 1000%;
+}
+
+.attribution {
+  color: #cacaca;
+  font-size: var(--size-10);
+}
+
+/* gallery section- */
+.invisible {
+  display: none;
+}
+
+.our-work-main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-default {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--size-150);
+  margin-left: var(--size-30);
+}
+
+.gallery-default img {
+  width: 20%;
+  height: var(--size-200);
+  border-radius: var(--size-50);
+  margin-left: -30px;
+  box-shadow: var(--standard-shadow);
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+.gallery-default img:hover {
+  transform: scale(1.5);
+  border-radius: var(--size-5);
 }
