@@ -72,7 +72,7 @@ body {
   margin: auto;
   width: var(--size-300);
   height: var(--size-50);
-  background-color: var(--tsqd-blue);
+  background-color: var(--main-blue);
   border-radius: var(--size-40);
   color: white;
   margin-top: var(--size-100);
@@ -85,7 +85,9 @@ body {
 
 .default-btn:hover {
   transform: scale(1.05);
-  border: 0.0625rem solid var(--white);
+  border: 0.0625rem solid var(--main-blue);
+  background-color: var(--white);
+  color: var(--main-blue);
 }
 
 .default-btn a {

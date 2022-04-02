@@ -118,10 +118,14 @@
   align-items: center;
 }
 .navbar-brand img {
-  width: 4.375rem;
+  width: 10.375rem;
   height: 4.375rem;
   transition: ease-in-out 0.5s;
   margin-right: var(--size-30);
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
 }
 
 .nav-link a {
@@ -167,6 +171,11 @@
   display: flex;
   flex-direction: column;
   float: left;
+  background-color: var(--light-background);
+}
+
+ul li .final-sub-menu-item {
+  margin-bottom: 0px;
 }
 
 /* Main intro Section */
@@ -262,8 +271,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-right: var(--size-50);
-  margin-left: var(--size-50); */
   text-align: center;
   width: 340px;
 }
@@ -277,8 +284,8 @@
 }
 
 .bubble-img {
-  width: var(--size-200);
-  height: var(--size-200);
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: var(--size-10) solid #ececec;
   margin-bottom: var(--size-15);
@@ -358,6 +365,7 @@
 
 .owner-right {
   display: flex;
+  align-items: end;
   flex-direction: row-reverse;
   margin-top: var(--size-50);
 }
@@ -367,6 +375,7 @@
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
+  z-index: 10;
 }
 
 .owner-name {
@@ -387,9 +396,10 @@
 
 .owner-left img,
 .owner-right img {
-  width: var(--size-300);
-  /* height: var(--size-300); */
+  width: var(--size-400);
+  height: 100%;
   border-radius: var(--size-10);
+  z-index: 10;
 }
 
 .owner-left img {
@@ -611,7 +621,8 @@
   text-shadow: 3px 5px 2px rgb(38 38 38);
 }
 
-.free-quote-info input {
+.free-quote-info input,
+#footerSubmit {
   width: var(--size-300);
   height: var(--size-50);
   border: 1px solid transparent;
@@ -648,7 +659,7 @@
 }
 
 .footer-bottom {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: top;
@@ -661,8 +672,12 @@
   margin-bottom: var(--size-20);
 }
 
+.bottom-footer-logo {
+  margin-top: 4%;
+}
+
 .footer-bottom img {
-  width: 140px;
+  width: var(--size-300);
 }
 
 .footer-services,
@@ -710,7 +725,6 @@
   width: 60%;
   margin: auto;
   margin-top: var(--size-40);
-  /* text-align: center; */
 }
 
 .services-page-main h1 {
