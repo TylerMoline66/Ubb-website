@@ -1,4 +1,5 @@
 (() => {
+  // handle navigation menus
   const navMenus = document.querySelectorAll("#navMenu");
 
   function toggleMenu(e) {

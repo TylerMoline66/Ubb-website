@@ -91,6 +91,73 @@
       </div>
     </nav>
 
+    <div class="spacer"></div>
+
+    <!-- CALCULATOR  -->
+    <section class="calculator">
+      <!-- calculator container -->
+      <div class="dropdown-container">
+        <div class="dropdown-header">
+          <p class="rate-total" id="basic">Basic $0</p>
+          <p class="rate-total" id="mid-range">Mid-Range $0</p>
+          <p class="rate-total" id="deluxe">Deluxe $0</p>
+        </div>
+        <div class="dropdown-content">
+          <form id="calc-form" action="submit" class="calc-form">
+            <label for="basement-input"
+              >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</label
+            >
+            <input type="text" id="basement-input" name="basement-input" />
+            <label for="kitchenette-input"
+              >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</label
+            >
+            <input
+              type="text"
+              id="kitchenette-input"
+              name="kitchenette-input"
+            />
+            <span>
+              <input type="radio" id="radio-one" name="bathroom" value="0" />
+              <label for="radio-one">No Bathroom</label>
+              <input type="radio" id="radio-two" name="bathroom" value="1/2" />
+              <label for="radio-two">1/2 Bathroom</label>
+              <input
+                type="radio"
+                id="radio-three"
+                name="bathroom"
+                value="3/4"
+              />
+              <label for="radio-three">3/4 Bathroom</label>
+              <input type="radio" id="radio-four" name="bathroom" value="1" />
+              <label for="radio-three">Full Bathroom</label>
+            </span>
+            <button type="submit">Calculate</button>
+          </form>
+        </div>
+      </div>
+      <!-- container one -->
+      <div id="estimate-dropdown" class="dropdown-container">
+        <div class="dropdown-header">
+          <p>Request Custom Estimate</p>
+        </div>
+        <div class="dropdown-content">
+          <div class="contact-form">
+            <span class="pricing-row">
+              <p id="basic" class="estimate-total">Basic $0</p>
+              <p id="mid-range" class="estimate-total">Mid-Range $0</p>
+              <p id="deluxe" class="estimate-total">Deluxe $0</p>
+            </span>
+            <span>
+              <input type="text" placeholder="Full name" />
+              <input type="email" placeholder="Email" />
+              <input type="tel" placeholder="Phone" />
+            </span>
+            <textarea placeholder="Comments"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer>
       <section class="our-service-area">
@@ -242,6 +309,7 @@
       <h2 class="final-h2">Utah Basement Builders 2022</h2>
     </footer>
 
-    <script src="./index.js" async defer></script>
+    <script src="./js/index.js" async defer></script>
+    <script src="./js/calculator.js" async defer></script>
   </body>
 </html>
