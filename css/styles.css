@@ -1316,3 +1316,9 @@ ul li .final-sub-menu-item {
   transform: scale(1.5);
   border-radius: var(--size-5);
 }
+
+/* Theater room page */
+
+.theater-room-page .gallery-default {
+  justify-content: center;
+}
