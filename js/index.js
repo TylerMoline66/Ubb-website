@@ -11,3 +11,11 @@
     navMenu.addEventListener("mouseleave", toggleMenu);
   });
 })();
+
+// Gallery on click event
+
+const galleryImage = document.getElementById("galleryImg");
+
+function galleryImgGrow() {}
+
+galleryImage.addEventListener("click", galleryImgGrow());
