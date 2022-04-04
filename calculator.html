@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/calculator.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,7 +49,7 @@
           <span>&#9776;</span>
         </button>
         <a class="navbar-brand" href="index.html">
-          <img src="./Assets/excavator.png" alt="logo" />
+          <img src="./Assets/Utah Basement Builders LOGO.jpg" alt="logo" />
         </a>
         <ul class="navbar-nav">
           <li class="nav-link">
@@ -103,6 +104,75 @@
         </ul>
       </div>
     </nav>
+
+    <div class="spacer"></div>
+
+    <!-- CALCULATOR  -->
+    <section class="calculator">
+      <!-- calculator container -->
+      <div class="dropdown-container">
+        <div class="dropdown-header">
+          <p class="rate-total" id="basic">Basic $0</p>
+          <p class="rate-total" id="mid-range">Mid-Range $0</p>
+          <p class="rate-total" id="deluxe">Deluxe $0</p>
+        </div>
+        <div class="dropdown-content">
+          <form id="calc-form" action="submit" class="calc-form">
+            <label for="basement-input"
+              >What is the square footage of your unfinished basement.</label
+            >
+            <input type="number" id="basement-input" name="basement-input" />
+            <label for="kitchenette-input"
+              >If adding a Kitchenette, what is the square footage?</label
+            >
+            <input
+              type="number"
+              id="kitchenette-input"
+              name="kitchenette-input"
+            />
+            <span>
+              <input type="radio" id="radio-one" name="bathroom" value="0" />
+              <label for="radio-one">No Bathroom</label>
+              <input type="radio" id="radio-two" name="bathroom" value="1/2" />
+              <label for="radio-two">1/2 Bathroom</label>
+              <input
+                type="radio"
+                id="radio-three"
+                name="bathroom"
+                value="3/4"
+              />
+              <label for="radio-three">3/4 Bathroom</label>
+              <input type="radio" id="radio-four" name="bathroom" value="1" />
+              <label for="radio-three">Full Bathroom</label>
+            </span>
+            <button type="submit">Calculate</button>
+          </form>
+        </div>
+      </div>
+      <!-- container one -->
+      <div id="estimate-dropdown" class="dropdown-container">
+        <div class="dropdown-header">
+          <p>Request Custom Estimate</p>
+        </div>
+        <div class="dropdown-content">
+          <div class="contact-form">
+            <span class="pricing-row">
+              <p id="basic" class="estimate-total">Basic $0</p>
+              <p id="mid-range" class="estimate-total">Mid-Range $0</p>
+              <p id="deluxe" class="estimate-total">Deluxe $0</p>
+            </span>
+            <div class="contact-inputs">
+              <span>
+                <input type="text" placeholder="Full name" />
+                <input type="email" placeholder="Email" />
+                <input type="tel" placeholder="Phone" />
+              </span>
+              <textarea placeholder="Comments"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer>
@@ -256,5 +326,6 @@
     </footer>
 
     <script src="./js/index.js" async defer></script>
+    <script src="./js/calculator.js" async defer></script>
   </body>
 </html>
