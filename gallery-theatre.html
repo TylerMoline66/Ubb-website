@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <link rel="stylesheet" href="./css/modal.css" />
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
@@ -19,6 +20,11 @@
     />
   </head>
   <body>
+    <div id="modal__container" class="modal__container--closed">
+      <button id="modal__button--back">&#8249;</button>
+      <div id="modal__img"></div>
+      <button id="modal__button--next">&#8250;</button>
+    </div>
     <!-- Masthead -->
     <section class="mast-head">
       <div class="owners-numbers">
@@ -480,5 +486,6 @@
     </footer>
 
     <script src="./js/index.js" async defer></script>
+    <script src="./js/modal.js" async defer></script>
   </body>
 </html>

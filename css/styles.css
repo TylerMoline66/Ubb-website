@@ -1242,7 +1242,7 @@ ul li .final-sub-menu-item {
 .gallery-btn-1:hover,
 .gallery-btn-2:hover,
 .gallery-btn-3:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   border-radius: var(--size-20);
   opacity: 100%;
   color: white;
@@ -1349,11 +1349,15 @@ ul li .final-sub-menu-item {
 }
 
 .gallery-default img:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   border-radius: var(--size-5);
 }
 
 /* Theater room page */
+
+/* #growingImg {
+  width: 50%;
+} */
 
 .theater-room-page .gallery-default {
   justify-content: center;
