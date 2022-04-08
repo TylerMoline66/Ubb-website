@@ -53,8 +53,14 @@
     width: 75%;
   }
 
+  .behind-owner-color {
+    right: -10%;
+    top: -1132px;
+  }
+
   .behind-owner-color-1 {
-    left: 55%;
+    left: 59%;
+    top: -850px;
   }
 }
 

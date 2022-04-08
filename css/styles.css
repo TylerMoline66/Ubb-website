@@ -361,13 +361,40 @@ ul li .final-sub-menu-item {
 
 .owner-left {
   display: flex;
+  align-items: center;
 }
 
 .owner-right {
   display: flex;
-  align-items: end;
+  align-items: center;
   flex-direction: row-reverse;
   margin-top: var(--size-50);
+}
+
+.owner-left-img-main {
+  background-image: url("https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649433035/Ubb%20website%20assests%20/IMG_2807_gfgqjd.jpg");
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  box-shadow: 10px 10px 20px rgba(2, 2, 2);
+  margin-right: var(--size-50);
+  border-radius: var(--size-10);
+  z-index: 100;
+}
+
+.owner-right-img-main {
+  background-image: url("https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649091396/Ubb%20website%20assests%20/owner-pic-2_bnxoxz.jpg");
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  margin-left: var(--size-50);
+  border-radius: var(--size-10);
+  box-shadow: -10px 10px 20px rgba(2, 2, 2);
+  z-index: 100;
 }
 
 .owner-right-inner-info {
@@ -384,8 +411,11 @@ ul li .final-sub-menu-item {
 
 .owner-left-inner-info,
 .owner-right-inner-info {
-  margin-top: var(--size-100);
   width: 60%;
+}
+
+.owner-left-inner-info {
+  margin-top: var(--size-100);
 }
 
 .contractor {
@@ -677,7 +707,7 @@ ul li .final-sub-menu-item {
 }
 
 .footer-bottom img {
-  width: var(--size-300);
+  width: 17vw;
 }
 
 .footer-services,
@@ -1173,8 +1203,8 @@ ul li .final-sub-menu-item {
 
 .behind-owner-color {
   position: relative;
-  right: -3%;
-  top: -1014px;
+  right: -9%;
+  top: -1090px;
   width: var(--size-300);
   height: var(--size-300);
   background-color: var(--main-blue);
@@ -1185,8 +1215,8 @@ ul li .final-sub-menu-item {
 
 .behind-owner-color-1 {
   position: relative;
-  left: 67%;
-  top: -737px;
+  left: 68%;
+  top: -832px;
   width: var(--size-300);
   height: var(--size-300);
   background-color: var(--main-blue);
