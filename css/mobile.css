@@ -64,6 +64,63 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .subbar-nav {
+    width: 90%;
+  }
+
+  .header-btn {
+    width: 10.625rem;
+    font-size: 12px;
+  }
+
+  .main-page-pic-info h1 {
+    line-height: 45px;
+  }
+
+  .bubble-img {
+    width: var(--size-200);
+    height: var(--size-200);
+  }
+
+  .service-bubble h2 {
+    font-size: var(--size-15);
+  }
+
+  .learn-more-btn {
+    width: 150px;
+  }
+
+  .area-with-icons {
+    width: 90%;
+  }
+
+  .services-page-main {
+    width: 80%;
+  }
+
+  .about-us-page-main {
+    width: 75%;
+  }
+
+  .gallery-btn,
+  .gallery-btn-1,
+  .gallery-btn-2,
+  .gallery-btn-3 {
+    width: 13rem;
+    font-size: 12px;
+  }
+
+  .main-gallery-page img {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .contact-us-page-main iframe {
+    width: var(--size-400);
+  }
+}
+
 @media screen and (max-width: 768px) {
   [aria-controls="navbarDropdown"] {
     display: block;
