@@ -112,8 +112,8 @@
   }
 
   .main-gallery-page img {
-    width: 12rem;
-    height: 12rem;
+    width: 11rem;
+    height: 11rem;
   }
 
   .contact-us-page-main iframe {
@@ -122,6 +122,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .mast-head {
+    font-size: var(--size-14);
+  }
+
   [aria-controls="navbarDropdown"] {
     display: block;
   }
@@ -133,20 +137,150 @@
   [aria-expanded="true"] ~ ul {
     display: block;
     position: absolute;
-    right: 0;
-    top: 50px;
-    background-image: linear-gradient(
-      to right,
-      transparent,
-      rgba(255, 255, 255, 0.7)
-    );
-    width: 100%;
+    right: var(--size-20);
+    top: var(--size-100);
+    border-radius: var(--size-10);
+    background-color: lightgray;
+    width: 30%;
     text-align: right;
     box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
   }
 
   [aria-expanded="true"] ~ ul li a {
-    margin-right: 20pxx;
+    margin-right: 20px;
     color: #666;
+  }
+
+  ul li {
+    margin-top: var(--size-10);
+  }
+
+  .chevron-down {
+    display: inline;
+    margin-right: var(--size-10);
+  }
+
+  .chevron-down img {
+    width: 4%;
+  }
+
+  .header-btn {
+    float: right;
+    margin-top: var(--size-30);
+    margin-bottom: var(--size-30);
+    margin-right: var(--size-20);
+  }
+
+  .main-button-section {
+    margin-top: var(--size-50);
+  }
+
+  .main-page-pic-info h1 {
+    font-size: var(--size-20);
+  }
+
+  .main-page-pic-info p {
+    font-size: var(--size-14);
+  }
+
+  .quote-btn,
+  .calc-btn {
+    width: 15.625rem;
+    font-size: var(--size-15);
+  }
+
+  .service-bubble-section {
+    flex-wrap: wrap;
+  }
+
+  .main-page-owners {
+    width: 90%;
+  }
+
+  .row-one,
+  .row-two,
+  .row-three,
+  .row-four {
+    width: 90%;
+    font-size: var(--size-14);
+  }
+
+  .area-row-one,
+  .area-row-two,
+  .area-row-three,
+  .area-row-four,
+  .area-row-five {
+    margin-left: 0;
+  }
+
+  .free-quote-info {
+    margin-left: 10%;
+  }
+
+  #footerEmail {
+    margin-top: var(--size-20);
+  }
+
+  #footerPhoneNumber {
+    margin-top: var(--size-20);
+  }
+
+  #footerMessage {
+    width: 80%;
+    height: var(--size-100);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .bottom-footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--size-20);
+  }
+
+  .footer-bottom img {
+    width: 35vw;
+  }
+
+  .remodel-service img {
+    width: 20rem;
+  }
+
+  .gallery-page-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery-btn,
+  .gallery-btn-1,
+  .gallery-btn-2,
+  .gallery-btn-3 {
+    width: 15rem;
+  }
+
+  .gallery-btn-2,
+  .gallery-btn-3 {
+    margin-top: var(--size-20);
+  }
+
+  .gallery-btn-1,
+  .gallery-btn-3 {
+    margin-left: var(--size-30);
+  }
+
+  #modal__img {
+    width: 80%;
+  }
+
+  .gallery-default img {
+    width: 24%;
+  }
+
+  .contact-us-page-main iframe {
+    width: 15.625rem;
+    height: var(--size-300);
   }
 }

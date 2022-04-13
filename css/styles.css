@@ -415,7 +415,7 @@ ul li .final-sub-menu-item {
 }
 
 .owner-left-inner-info {
-  margin-top: var(--size-100);
+  /* margin-top: var(--size-100); */
 }
 
 .contractor {
@@ -551,6 +551,16 @@ ul li .final-sub-menu-item {
 
 .factors-wrapper img {
   width: 45%;
+  border-radius: var(--size-5);
+  box-shadow: var(--standard-shadow);
+}
+
+.finishing-cost-img {
+  background-image: url("https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649091510/Ubb%20website%20assests%20/main-page-pic_w7o5te.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 50%;
   border-radius: var(--size-5);
   box-shadow: var(--standard-shadow);
 }
