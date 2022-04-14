@@ -121,6 +121,56 @@
   }
 }
 
+@media screen and (max-width: 830px) {
+  .service-bubble-section {
+    flex-wrap: wrap;
+  }
+
+  .area-row-one,
+  .area-row-two,
+  .area-row-three,
+  .area-row-four,
+  .area-row-five {
+    margin-left: 0;
+  }
+
+  .free-quote-info {
+    margin-left: 10%;
+  }
+
+  #footerEmail {
+    margin-top: var(--size-20);
+  }
+
+  #footerPhoneNumber {
+    margin-top: var(--size-20);
+  }
+
+  #footerMessage {
+    width: 80%;
+    height: var(--size-100);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .bottom-footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--size-20);
+  }
+
+  .footer-bottom img {
+    width: 35vw;
+  }
+
+  .navbar-nav li a {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .mast-head {
     font-size: var(--size-14);
@@ -153,6 +203,24 @@
 
   ul li {
     margin-top: var(--size-10);
+  }
+
+  .to-top-btn {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 90%;
+    left: var(--size-20);
+    width: var(--size-50);
+    height: var(--size-50);
+    border-radius: 50%;
+    background-color: var(--main-blue);
+    opacity: 70%;
+    z-index: 1000;
+  }
+
+  .to-top-btn img {
+    width: 90%;
   }
 
   .chevron-down {
@@ -213,38 +281,6 @@
     margin-left: 0;
   }
 
-  .free-quote-info {
-    margin-left: 10%;
-  }
-
-  #footerEmail {
-    margin-top: var(--size-20);
-  }
-
-  #footerPhoneNumber {
-    margin-top: var(--size-20);
-  }
-
-  #footerMessage {
-    width: 80%;
-    height: var(--size-100);
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-  }
-
-  .bottom-footer-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: var(--size-20);
-  }
-
-  .footer-bottom img {
-    width: 35vw;
-  }
-
   .remodel-service img {
     width: 20rem;
   }
@@ -282,5 +318,155 @@
   .contact-us-page-main iframe {
     width: 15.625rem;
     height: var(--size-300);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .mast-head {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: var(--size-150);
+  }
+
+  .owners-numbers {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .serving-main {
+    margin-right: 0;
+  }
+
+  .owner-number-one,
+  .owner-number-two {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: centers;
+    width: var(--size-200);
+    height: var(--size-30);
+    background-color: var(--main-blue);
+    border-radius: var(--size-15);
+    box-shadow: 0px 6px 10px rgb(120 120 120);
+  }
+
+  .owner-number-one a,
+  .owner-number-two a {
+    color: var(--white);
+  }
+
+  .owner-number-two {
+    margin-top: var(--size-20);
+    margin-bottom: var(--size-20);
+  }
+
+  .navbar {
+    top: var(--size-150);
+  }
+
+  .to-top-btn {
+    top: 95%;
+  }
+
+  .main-page-pic-info {
+    top: 94%;
+    width: 90%;
+    line-height: var(--size-18);
+  }
+
+  .main-page-pic-info h1 {
+    margin-bottom: 0;
+    line-height: var(--size-20);
+  }
+
+  .main-button-section {
+    flex-direction: column;
+  }
+
+  .services-main {
+    margin-top: var(--size-400);
+  }
+
+  .service-bubble-section {
+    width: 70%;
+  }
+
+  .owner-left,
+  .owner-right {
+    flex-direction: column;
+  }
+
+  .owner-left-img-main {
+    width: 350px;
+    height: var(--size-400);
+    margin-right: 0;
+    box-shadow: 0px 10px 20px rgb(2 2 2);
+  }
+
+  .owner-right-img-main {
+    width: 350px;
+    height: var(--size-400);
+    margin-left: 0;
+    box-shadow: 0px 10px 20px rgb(2 2 2);
+  }
+
+  .owner-name {
+    text-align: start;
+  }
+
+  .owner-left-inner-info,
+  .owner-right-inner-info {
+    width: 85%;
+  }
+
+  .owner-right-inner-info {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .row-one,
+  .row-two,
+  .row-three,
+  .row-four {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .above-why-us-h2 {
+    width: 80%;
+    margin: auto;
+    margin-top: var(--size-100);
+  }
+
+  .finishing-cost-img {
+    display: none;
+  }
+
+  .service-area-info {
+    width: 90%;
+  }
+
+  .area-with-icons {
+    width: 70%;
+    margin-left: -18%;
+  }
+
+  .area-wrapper {
+    width: 0px;
+  }
+
+  .area-row-one,
+  .area-row-two,
+  .area-row-three,
+  .area-row-four,
+  .area-row-five {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+
+  .free-quote-footer {
+    height: 600px;
   }
 }

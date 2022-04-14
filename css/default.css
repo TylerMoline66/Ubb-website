@@ -98,3 +98,7 @@ body {
 .chevron-down {
   display: none;
 }
+
+.to-top-btn {
+  display: none;
+}
