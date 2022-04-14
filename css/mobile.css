@@ -329,6 +329,10 @@
     height: var(--size-150);
   }
 
+  [aria-expanded="true"] ~ ul {
+    width: 50%;
+  }
+
   .owners-numbers {
     flex-direction: column;
     margin-left: 0;
@@ -367,7 +371,7 @@
   }
 
   .to-top-btn {
-    top: 95%;
+    top: 90%;
   }
 
   .main-page-pic-info {
@@ -455,18 +459,131 @@
 
   .area-wrapper {
     width: 0px;
-  }
-
-  .area-row-one,
-  .area-row-two,
-  .area-row-three,
-  .area-row-four,
-  .area-row-five {
-    /* flex-direction: column; */
-    flex-wrap: wrap;
+    font-size: 9px;
   }
 
   .free-quote-footer {
     height: 600px;
+  }
+
+  .row-one-basement-ideas,
+  .basement-option-row-two {
+    flex-direction: column;
+  }
+
+  .gallery-btn-1,
+  .gallery-btn-3 {
+    margin-left: 0;
+    margin-top: var(--size-20);
+  }
+
+  .main-gallery-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-gallery-page img {
+    margin-top: var(--size-20);
+  }
+
+  .gallery-default {
+    flex-wrap: wrap;
+  }
+
+  .gallery-default img {
+    width: 80%;
+    margin-bottom: var(--size-30);
+  }
+
+  #modal__img {
+    background-size: 60%;
+    width: 145%;
+  }
+
+  .contact-us-page-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-page-main iframe {
+    width: 21rem;
+    margin-top: var(--size-100);
+  }
+
+  .request-quote-sticky {
+    left: 30%;
+  }
+
+  .remodeling-row-one,
+  .remodeling-row-two,
+  .remodeling-row-three,
+  .remodeling-row-four {
+    flex-direction: column;
+  }
+
+  .theater-info-img img {
+    width: 100%;
+  }
+
+  .kitchens-row-one,
+  .kitchens-row-two {
+    flex-direction: column;
+  }
+
+  .kitchen-row-one-info,
+  .kitchen-row-two-info {
+    width: 100%;
+  }
+
+  .kitchens-row-one img,
+  .kitchens-row-two img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .bedroom-service img {
+    display: none;
+  }
+
+  .beside-img-info {
+    width: 100%;
+  }
+
+  .living-room-service img {
+    width: 100%;
+  }
+
+  .cave-side-img-wrapper {
+    flex-direction: column;
+  }
+
+  .cave-side-img-wrapper img {
+    width: 100%;
+  }
+
+  .cave-side-info {
+    width: 100%;
+  }
+
+  .stairs-beside-wrapper {
+    flex-direction: column;
+  }
+
+  .stairs-beside-wrapper img {
+    width: 100%;
+  }
+
+  .stairs-info-wrapper {
+    width: 100%;
+  }
+
+  .behind-owner-color-1,
+  .behind-owner-color {
+    display: none;
+  }
+
+  .main-owners-info {
+    margin-bottom: var(--size-500);
   }
 }
