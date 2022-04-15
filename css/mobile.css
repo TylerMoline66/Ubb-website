@@ -470,6 +470,11 @@
     height: 600px;
   }
 
+  #footerSubmit {
+    color: var(--white);
+    background-color: var(--main-blue);
+  }
+
   .row-one-basement-ideas,
   .basement-option-row-two {
     flex-direction: column;
