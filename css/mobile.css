@@ -333,6 +333,10 @@
     width: 50%;
   }
 
+  .bubble-line {
+    margin-bottom: var(--size-30);
+  }
+
   .owners-numbers {
     flex-direction: column;
     margin-left: 0;
@@ -583,7 +587,93 @@
     display: none;
   }
 
-  .main-owners-info {
-    margin-bottom: var(--size-500);
+  .our-team-btn {
+    margin-bottom: var(--size-30);
+  }
+
+  .main-page-owners {
+    margin-bottom: var(--size-20);
+  }
+
+  .our-team-main {
+    margin-bottom: var(--size-50);
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .main-page-pic-info {
+    top: 100%;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    width: 55%;
+  }
+
+  .main-page-pic-info p {
+    line-height: var(--size-15);
+  }
+
+  .remodel-service img {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .area-with-icons {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  [aria-expanded="true"] ~ ul {
+    width: 66%;
+  }
+
+  .main-page-pic-info {
+    top: 97%;
+  }
+
+  .main-page-pic-info h1 {
+    color: var(--main-blue);
+    text-shadow: none;
+  }
+
+  .service-info-main {
+    text-align: center;
+  }
+
+  .owner-left-img-main,
+  .owner-right-img-main {
+    width: var(--size-300);
+  }
+
+  .row-one,
+  .row-two,
+  .row-three,
+  .row-four {
+    width: 100%;
+  }
+
+  .area-row-one div p,
+  .area-row-two div p,
+  .area-row-three div p,
+  .area-row-four div p,
+  .area-row-five div p {
+    font-size: var(--size-5);
+  }
+
+  .area-row-one img,
+  .area-row-two img,
+  .area-row-three img,
+  .area-row-four img,
+  .area-row-five img {
+    /* width: var(--size-10);
+    height: var(--size-10; */
+  }
+
+  .free-quote-info input,
+  #footerSubmit,
+  #footerMessage {
+    width: 15.625rem;
   }
 }
