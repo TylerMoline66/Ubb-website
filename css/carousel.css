@@ -1,0 +1,80 @@
+/* wrapper */
+.c__wrapper {
+  position: fixed;
+  width: 100vw;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+  background: rgba(0, 0, 0, 0.767);
+  transition: all 0.2s ease-in-out;
+  height: 100vh;
+  opacity: 0;
+  overflow: hidden;
+}
+.c--open {
+  opacity: 1;
+}
+
+/* image */
+.c__img {
+  width: 70%;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  max-width: 800px;
+}
+
+/* buttons */
+#carousel__btn--exit {
+  top: 3rem;
+  right: 5rem;
+}
+#carousel__btn--next {
+  right: 5rem;
+}
+#carousel__btn--back {
+  left: 5rem;
+}
+.c__btn {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.233);
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: var(--size-20);
+  font-weight: bolder;
+  transition: all 0.2s ease-in-out;
+}
+.c__btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* mobile view */
+@media screen and (max-width: 768px) {
+  .c__img {
+    width: 100%;
+    height: 100%;
+  }
+  .c__btn {
+    background: rgba(255, 255, 255, 0.753);
+    color: black;
+  }
+  #carousel__btn--exit {
+    top: 1rem;
+    right: 1rem;
+  }
+
+  #carousel__btn--next {
+    right: 1rem;
+  }
+
+  #carousel__btn--back {
+    left: 1rem;
+  }
+}
