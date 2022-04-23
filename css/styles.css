@@ -662,7 +662,7 @@ ul li .final-sub-menu-item {
 }
 
 .free-quote-info input,
-#footerSubmit {
+button {
   width: var(--size-300);
   height: var(--size-50);
   border: 1px solid transparent;
@@ -681,7 +681,7 @@ ul li .final-sub-menu-item {
   font-size: var(--size-15);
 }
 
-#footerSubmit {
+.free-quote-info button {
   border-radius: var(--size-100);
   width: var(--size-200);
   -webkit-transition: ease-in-out 0.5s;
@@ -690,7 +690,7 @@ ul li .final-sub-menu-item {
   transition: ease-in-out 0.5s;
 }
 
-#footerSubmit:hover {
+.free-quote-info button:hover {
   cursor: pointer;
   color: var(--white);
   background-color: var(--main-blue);
