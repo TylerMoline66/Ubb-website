@@ -516,21 +516,28 @@
         />
       </div>
       <section class="free-quote-footer">
-        <!-- <form
-          class="free-quote-info"
+        <form
+          method="post"
+          class="free-quote-info form"
           name="contact"
           data-netlify="true"
-          id="footerForm"
+          id="form"
         >
           <h2>Schedule a free quote</h2>
-          <input id="footerName" type="text" placeholder="Full Name" />
-          <input id="footerEmail" type="email" placeholder="Email" />
-          <input id="footerPhoneNumber" type="tel" placeholder="Phone Number" />
+
+          <input id="name" name="name" type="text" placeholder="Full Name" />
+          <input id="email" name="email" type="email" placeholder="Email" />
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="Phone Number"
+          />
           <br />
           <br />
           <textarea
-            id="footerMessage"
-            name="footerMessage"
+            id="message"
+            name="message"
             placeholder="Message"
             rows="4"
             cols="50"
@@ -538,8 +545,8 @@
           </textarea>
           <br />
           <br />
-          <button id="footerSubmit" type="submit">Submit</button>
-        </form> -->
+          <button id="submit" type="submit">Submit</button>
+        </form>
       </section>
       <section class="footer-bottom">
         <div class="bottom-footer-logo">

@@ -128,7 +128,7 @@
           <li class="nav-link">
             <a href="./contactUs.html">Contact us</a>
           </li>
-          <a href="#serviceForm">
+          <a href="#form">
             <div class="btn-default header-btn">
               <span>SCHEDULE FREE ESTIMATE</span>
             </div>
@@ -176,16 +176,23 @@
     </section>
 
     <section class="free-quote-footer contact-page-schedule">
-      <!-- <form id="serviceForm" class="free-quote-info">
+      <form
+        method="post"
+        class="free-quote-info form"
+        name="contact"
+        data-netlify="true"
+        id="form"
+      >
         <h2>Schedule a free quote</h2>
-        <input id="footerName" type="text" placeholder="Full Name" />
-        <input id="footerEmail" type="email" placeholder="Email" />
-        <input id="footerPhoneNumber" type="tel" placeholder="Phone Number" />
+
+        <input id="name" name="name" type="text" placeholder="Full Name" />
+        <input id="email" name="email" type="email" placeholder="Email" />
+        <input id="phone" name="phone" type="tel" placeholder="Phone Number" />
         <br />
         <br />
         <textarea
-          id="footerMessage"
-          name="footerMessage"
+          id="message"
+          name="message"
           placeholder="Message"
           rows="4"
           cols="50"
@@ -193,8 +200,8 @@
         </textarea>
         <br />
         <br />
-        <input id="footerSubmit" type="submit" value="Submit" />
-      </form> -->
+        <button id="submit" type="submit">Submit</button>
+      </form>
     </section>
 
     <!-- Footer -->
