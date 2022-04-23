@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
     <link rel="stylesheet" href="./css/default.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
@@ -31,10 +31,11 @@
     ></script>
   </head>
   <body>
-    <div id="modal__container" class="modal__container--closed">
-      <button id="modal__button--back">&#8249;</button>
-      <div id="modal__img"></div>
-      <button id="modal__button--next">&#8250;</button>
+    <div id="carousel__wrapper" class="c__wrapper">
+      <button id="carousel__btn--back" class="c__btn">&#8249;</button>
+      <div id="carousel__img" class="c__img"></div>
+      <button id="carousel__btn--next" class="c__btn">&#8250;</button>
+      <button id="carousel__btn--exit" class="c__btn">x</button>
     </div>
     <!-- Masthead -->
     <section class="mast-head">
@@ -205,22 +206,27 @@
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180134/Ubb%20website%20assests%20/IMG_0744_o2ptdl.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180142/Ubb%20website%20assests%20/creative-1_eqjpkf.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180142/Ubb%20website%20assests%20/creative-2_lepyzm.jpg"
             alt="kitchen"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180075/Ubb%20website%20assests%20/creative-3_el6td5.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180049/Ubb%20website%20assests%20/creative-13_xf8rt5.jpg"
             alt="creative-design"
+            class="selector__img"
           />
         </div>
 
@@ -228,22 +234,27 @@
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180049/Ubb%20website%20assests%20/creative-5_w0muyq.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180102/Ubb%20website%20assests%20/creative-6_sfjkps.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180048/Ubb%20website%20assests%20/creative-7_ci7etw.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180050/Ubb%20website%20assests%20/creativ-8_hdjauq.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180120/Ubb%20website%20assests%20/creative-9_uxdwlk.jpg"
             alt="creative-design"
+            class="selector__img"
           />
         </div>
 
@@ -251,22 +262,27 @@
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180065/Ubb%20website%20assests%20/creative-10_d2v29y.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180082/Ubb%20website%20assests%20/creative-11_kdrt5f.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180049/Ubb%20website%20assests%20/creative-12_y40flr.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180066/Ubb%20website%20assests%20/creative-14_le2nbi.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180144/Ubb%20website%20assests%20/creative-15_dtkbt8.jpg"
             alt="creative-design"
+            class="selector__img"
           />
         </div>
 
@@ -274,66 +290,81 @@
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180055/Ubb%20website%20assests%20/creative-16_d1zahy.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180095/Ubb%20website%20assests%20/creative-17_oa634t.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180092/Ubb%20website%20assests%20/creative-18_vdkj7s.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180068/Ubb%20website%20assests%20/creative-19_hbnwzr.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180094/Ubb%20website%20assests%20/creative-20_nmetys.jpg"
             alt="creative-design"
+            class="selector__img"
           />
         </div>
         <div class="gallery-default basement-section">
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180120/Ubb%20website%20assests%20/creative-21_zrzwsq.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180127/Ubb%20website%20assests%20/creative-22_tcg4ts.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180068/Ubb%20website%20assests%20/creative-23_babzfs.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180114/Ubb%20website%20assests%20/creative-24_yrrkn7.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180109/Ubb%20website%20assests%20/creative-25_nxlicy.jpg"
             alt="creative-design"
+            class="selector__img"
           />
         </div>
         <div class="gallery-default basement-section">
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180068/Ubb%20website%20assests%20/creative-26_x6htdr.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180071/Ubb%20website%20assests%20/creative-27_uev59e.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180110/Ubb%20website%20assests%20/creative-28_nnvwvu.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180136/Ubb%20website%20assests%20/creative-31_hxdovz.jpg"
             alt="creative-design"
+            class="selector__img"
           />
           <img
             src="https://res.cloudinary.com/dcyq4n2bj/image/upload/v1649180139/Ubb%20website%20assests%20/creative-32_srkjub.jpg"
             alt="creative-design"
+            class="selector__img"
           />
         </div>
       </div>
@@ -566,6 +597,6 @@
     </footer>
 
     <script src="./js/index.js" async defer></script>
-    <script src="./js/modal.js" async defer></script>
+    <script src="./js/carousel.js" async defer></script>
   </body>
 </html>
