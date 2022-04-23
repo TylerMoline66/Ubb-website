@@ -598,14 +598,19 @@
           id="footerForm"
         >
           <h2>Schedule a free quote</h2>
-          <input id="footerName" type="text" placeholder="Full Name" />
-          <input id="footerEmail" type="email" placeholder="Email" />
-          <input id="footerPhoneNumber" type="tel" placeholder="Phone Number" />
+          <input id="name" name="name" type="text" placeholder="Full Name" />
+          <input id="email" name="email" type="email" placeholder="Email" />
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="Phone Number"
+          />
           <br />
           <br />
           <textarea
             id="footerMessage"
-            name="footerMessage"
+            name="message"
             placeholder="Message"
             rows="4"
             cols="50"
@@ -640,6 +645,6 @@
     </footer>
 
     <script src="./js/index.js" async defer></script>
-    <script src="./js/form.js" async defer></script>
+    <!-- <script src="./js/form.js" async defer></script> -->
   </body>
 </html>
