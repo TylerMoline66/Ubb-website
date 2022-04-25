@@ -470,6 +470,11 @@
     height: 600px;
   }
 
+  .free-quote-info textarea {
+    height: var(--size-100);
+    width: 80%;
+  }
+
   #footerSubmit {
     color: var(--white);
     background-color: var(--main-blue);

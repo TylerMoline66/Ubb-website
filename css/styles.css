@@ -662,7 +662,7 @@ ul li .final-sub-menu-item {
 }
 
 .free-quote-info input,
-button {
+#submit {
   width: var(--size-300);
   height: var(--size-50);
   border: 1px solid transparent;
@@ -671,6 +671,7 @@ button {
   font-size: var(--size-15);
   text-align: center;
   margin-right: var(--size-20);
+  margin-bottom: var(--size-20);
 }
 
 .free-quote-info textarea {
